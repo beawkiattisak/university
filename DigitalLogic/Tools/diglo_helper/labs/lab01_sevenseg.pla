@@ -1,0 +1,22 @@
+# Lab03-01  BCD to Seven Segment Decoder   (Template-01.dig: In[4] -> A..G)
+# Glyphs from the lab sheet: 6 = a c d e f g,  7 = a b c f,  9 = a b c d f g
+.i 4
+.o 7
+.ilb In3 In2 In1 In0
+.ob A B C D E F G
+.type fd
+#       ABCDEFG
+0000    1111110
+0001    0110000
+0010    1101101
+0011    1111001
+0100    0110011
+0101    1011011
+0110    1011111
+0111    1110010
+1000    1111111
+1001    1111011
+# 10..15 never occur
+1-1-    -------
+11--    -------
+.e

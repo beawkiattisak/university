@@ -1,0 +1,12 @@
+# compiled binaries
+*.bin
+*.exe
+*.out
+main
+!*/
+.DS_Store
+desktop.ini
+
+# Digital simulator distribution (download from github.com/hneemann/Digital)
+DigitalLogic/Digital/
+__pycache__/

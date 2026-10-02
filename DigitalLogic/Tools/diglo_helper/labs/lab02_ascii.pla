@@ -1,0 +1,16 @@
+# Lab03-02  DigLoLab ASCII   (Template-02.dig: In[3] -> Z[8])
+# Z = ASCII of "DigLoLab"[In]
+.i 3
+.o 8
+.ilb In2 In1 In0
+.ob Z7 Z6 Z5 Z4 Z3 Z2 Z1 Z0
+.type fd
+000  01000100   # D 0x44
+001  01101001   # i 0x69
+010  01100111   # g 0x67
+011  01001100   # L 0x4C
+100  01101111   # o 0x6F
+101  01001100   # L 0x4C
+110  01100001   # a 0x61
+111  01100010   # b 0x62
+.e
